@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "mian.o" 
+--strict --scatter "001_LPC2148.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\001_LPC2148.map" -o 001_LPC2148.axf

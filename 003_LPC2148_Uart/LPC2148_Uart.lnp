@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "LPC2148_Uart.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LPC2148_Uart.map" -o LPC2148_Uart.axf

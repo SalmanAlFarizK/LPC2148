@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BITSILICA\SALMAN\Learning\LPC2148_Projects\003_LPC2148_Uart\LPC2148_Uart.uvproj
+Project File Date:  08/28/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(1): error:  #5: cannot open source input file "lpc2148x.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): error:  #7: unrecognized token
+main.c(20): error:  #29: expected an expression
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+main.c(44): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+main.c(44): error:  #18: expected a ")"
+main.c(39): warning:  #177-D: variable "uiSize" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+main.c(44): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+main.c(44): error:  #18: expected a ")"
+main.c(39): warning:  #177-D: variable "uiSize" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+main.c(44): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+main.c(44): error:  #18: expected a ")"
+main.c(39): warning:  #177-D: variable "uiSize" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+main.c(44): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+main.c(41): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(34): error:  #65: expected a ";"
+main.c(44): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+main.c(44): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(41): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+linking...
+Program Size: Code=876 RO-data=16 RW-data=0 ZI-data=1256  
+"LPC2148_Uart.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(41): error:  #20: identifier "uin8_t" is undefined
+main.c(41): error:  #29: expected an expression
+main.c(41): error:  #165: too few arguments in function call
+main.c(41): error:  #18: expected a ")"
+main.c(35): warning:  #550-D: variable "cStr" was set but never used
+main.c(36): warning:  #177-D: variable "uiSize" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=876 RO-data=16 RW-data=0 ZI-data=1256  
+"LPC2148_Uart.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #29: expected an expression
+main.c(27): error:  #20: identifier "i" is undefined
+main.c(29): error:  #29: expected an expression
+main.c(29): error:  #20: identifier "j" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=924 RO-data=16 RW-data=0 ZI-data=1256  
+"LPC2148_Uart.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=928 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"LPC2148_Uart.axf" - 0 Error(s), 0 Warning(s).
