@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BITSILICA\SALMAN\Learning\LPC2148_Projects\004_LED_Swittch_Project\Led_switch.uvproj
+Project File Date:  08/29/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(37): warning:  #111-D: statement is unreachable
+main.c(38): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+"Led_switch.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(38): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+"Led_switch.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+"Led_switch.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"Led_switch.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=836 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"Led_switch.axf" - 0 Error(s), 0 Warning(s).
