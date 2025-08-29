@@ -12,7 +12,7 @@
 ### ADS-LD Output File: 'Uart_Rx.axf'
 ### ADS-LD Command File: 'Uart_Rx.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Uart_Rx.lnp', Handle=0x000012C4
+### Creating CmdFile 'Uart_Rx.lnp', Handle=0x000008E4
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Uart_Rx.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
