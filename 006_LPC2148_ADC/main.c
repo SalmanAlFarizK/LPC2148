@@ -1,4 +1,5 @@
 #include <lpc214x.h>
+#include <stdio.h>
 #include <stdint.h>
 #include <string.h>
 
@@ -75,7 +76,7 @@ uint32_t GetAdcVal(void)
 	while((AD0GDR & 0x80000000) == 0);
 	
 	// Read the ADC value.
-	uiAdcVal = ((AD0DR3 >> 6) & 0x000003FF);
+	uiAdcVal = ((AD0GDR >> 6) & 0x000003FF);
 	
 	//Stop ADC conversion.
 	AD0CR &= 0xF8FFFFFF;
@@ -86,7 +87,29 @@ uint32_t GetAdcVal(void)
 int main()
 {
 	uint32_t uiAdcVal = 0;
+	uint8_t ucTxBuffer[100] = {0};
+  uint32_t uiTxBuffLen = 0;
 	
 	Uart0Init();
+	ADC0Init();
+
+	while(1)
+	{
+		uiAdcVal = GetAdcVal();
 	
+		if(uiAdcVal != 0)
+		{
+			uiTxBuffLen = sprintf((char*)ucTxBuffer, "ADC Val: %d\r\n",uiAdcVal);
+		
+			UartSend(ucTxBuffer, uiTxBuffLen);
+		}
+		else
+		{
+			uiTxBuffLen = sprintf((char*)ucTxBuffer, "No values recieved\r\n");
+		
+			UartSend(ucTxBuffer, uiTxBuffLen);
+		}
+		
+		Delay(100);
+	}
 }
