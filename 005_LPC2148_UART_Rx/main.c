@@ -6,15 +6,23 @@
 
 void Uart0Init(void)
 {
+	PINSEL0 &= ~0x0000000F;
 	PINSEL0 |= 0x00000005;
+	VPBDIV = 0x04; 
+	
 	U0LCR = 0x83;
 	U0DLL = 97;
-	U0LCR = 0x03;
+	U0DLM = 0;
+  U0FDR = 0x10;              
+  U0LCR = 0x03;
+	
+	U0FCR = 0x07;
 }
 
 uint32_t Uart0Rxdata(uint8_t* ucRxBuff, uint32_t uiSize)
 {
 	uint32_t uiRxIdx = 0;
+	VPBDIV = 0x04; 
 	
 	while(uiSize > 0)
 	{
