@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BITSILICA\SALMAN\Learning\LPC2148_Projects\010_LPC2148_Keypad_Interfacing\keypad.uvproj
+Project File Date:  09/01/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(34): error:  #20: identifier "I0DIR0" is undefined
+main.c(36): error:  #20: identifier "I0DIR1" is undefined
+main.c(74): error:  #20: identifier "I0CLR" is undefined
+main.c(78): error:  #20: identifier "I0SET" is undefined
+main.c(86): error:  #20: identifier "I0CLR" is undefined
+main.c(90): error:  #20: identifier "I0SET" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(34): error:  #20: identifier "IoDIR0" is undefined
+main.c(74): error:  #20: identifier "I0CLR" is undefined
+main.c(78): error:  #20: identifier "I0SET" is undefined
+main.c(86): error:  #20: identifier "I0CLR" is undefined
+main.c(90): error:  #20: identifier "I0SET" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(74): error:  #20: identifier "I0CLR" is undefined
+main.c(78): error:  #20: identifier "I0SET" is undefined
+main.c(86): error:  #20: identifier "I0CLR" is undefined
+main.c(90): error:  #20: identifier "I0SET" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(74): error:  #20: identifier "IOCLR" is undefined
+main.c(78): error:  #20: identifier "IOSET" is undefined
+main.c(86): error:  #20: identifier "I0CLR" is undefined
+main.c(90): error:  #20: identifier "I0SET" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(78): error:  #20: identifier "IOSET" is undefined
+main.c(86): error:  #20: identifier "I0CLR" is undefined
+main.c(90): error:  #20: identifier "I0SET" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(78): error:  #20: identifier "IOSET" is undefined
+main.c(92): error:  #20: identifier "I0CLR" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(92): error:  #20: identifier "I0CLR" is undefined
+main.c(162): error:  #20: identifier "I0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "I0SET1" is undefined
+main.c(274): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(162): error:  #20: identifier "IO0CLR1" is undefined
+main.c(166): error:  #20: identifier "IO0PIN1" is undefined
+main.c(192): error:  #20: identifier "IO0SET1" is undefined
+main.c(220): error:  #20: identifier "I0SET1" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(162): error:  #20: identifier "IO0CLR1" is undefined
+main.c(250): error:  #20: identifier "IO0PIN1" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=2272 RO-data=16 RW-data=0 ZI-data=1256  
+"keypad.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2272 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"keypad.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=2272 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"keypad.axf" - 0 Error(s), 0 Warning(s).
