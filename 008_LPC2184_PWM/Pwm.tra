@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'Pwm.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "Pwm.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Pwm.map" -o Pwm.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Pwm.axf'
+### ADS-LD Command File: 'Pwm.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Pwm.lnp', Handle=0x00000E00
+### Writing '.lnp' file
+### ADS-LD Command file 'Pwm.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
