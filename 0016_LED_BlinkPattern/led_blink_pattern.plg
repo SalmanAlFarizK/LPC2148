@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BITSILICA\SALMAN\Learning\LPC2148_Projects\0016_LED_BlinkPattern\led_blink_pattern.uvproj
+Project File Date:  09/03/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(26): error:  #268: declaration may not appear after executable statement in block
+main.c(28): error:  #29: expected an expression
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(26): error:  #268: declaration may not appear after executable statement in block
+main.c(28): error:  #29: expected an expression
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(29): error:  #29: expected an expression
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=856 RO-data=16 RW-data=0 ZI-data=1256  
+"led_blink_pattern.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=840 RO-data=16 RW-data=0 ZI-data=1256  
+"led_blink_pattern.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+"led_blink_pattern.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=832 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"led_blink_pattern.axf" - 0 Error(s), 0 Warning(s).
