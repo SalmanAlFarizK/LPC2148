@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\BITSILICA\SALMAN\Learning\LPC2148_Projects\014_LPC2148_DAC_Driver\dac_driver.uvproj
+Project File Date:  09/03/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+linking...
+Program Size: Code=924 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"dac_driver.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+linking...
+Program Size: Code=940 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"dac_driver.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(9): error:  #20: identifier "uint32" is undefined
+main.c(13): error:  #165: too few arguments in function call
+main.c(14): error:  #140: too many arguments in function call
+main.c(56): error:  #20: identifier "uint32" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(10): error:  #20: identifier "uint32" is undefined
+main.c(14): error:  #165: too few arguments in function call
+main.c(15): error:  #140: too many arguments in function call
+main.c(57): error:  #20: identifier "uint32" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(14): error:  #165: too few arguments in function call
+main.c(15): error:  #140: too many arguments in function call
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=976 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"dac_driver.axf" - 0 Error(s), 0 Warning(s).
