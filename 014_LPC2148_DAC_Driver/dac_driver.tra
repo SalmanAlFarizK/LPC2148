@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'dac_driver.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "dac_driver.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\dac_driver.map" -o dac_driver.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'dac_driver.axf'
+### ADS-LD Command File: 'dac_driver.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'dac_driver.lnp', Handle=0x00000F18
+### Writing '.lnp' file
+### ADS-LD Command file 'dac_driver.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
