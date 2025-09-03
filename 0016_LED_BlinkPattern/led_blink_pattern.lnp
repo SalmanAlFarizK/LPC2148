@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "led_blink_pattern.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led_blink_pattern.map" -o led_blink_pattern.axf
