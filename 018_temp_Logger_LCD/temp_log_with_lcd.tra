@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'temp_log_with_lcd.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "temp_log_with_lcd.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\temp_log_with_lcd.map" -o temp_log_with_lcd.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'temp_log_with_lcd.axf'
+### ADS-LD Command File: 'temp_log_with_lcd.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'temp_log_with_lcd.lnp', Handle=0x00000730
+### Writing '.lnp' file
+### ADS-LD Command file 'temp_log_with_lcd.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

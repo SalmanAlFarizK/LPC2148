@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "temp_log_with_lcd.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\temp_log_with_lcd.map" -o temp_log_with_lcd.axf
